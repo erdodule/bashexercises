@@ -11,8 +11,4 @@
 
 printf "%f\n" "$RANDOM" "$RANDOM" "$RANDOM" "$RANDOM" > FILENAME
 erdo=$(<FILENAME)
-printf "$erdo\n"
-
-
-
-
+printf "$erdo"
